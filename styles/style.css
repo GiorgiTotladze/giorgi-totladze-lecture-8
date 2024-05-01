@@ -6,7 +6,7 @@ body {
     transform: scale(.2);
     position: relative;
     top: 660px;
-    left: 0px;
+    left: -350px;
     animation: delivery-van 10s infinite;
     margin: 0;
     
@@ -21,13 +21,21 @@ body {
 }
 
 @keyframes delivery-van {
-    from{left: 0%;}
-    to{left: 75%;}
+    from{left: -350px;}
+    to{left: 950px;}
 }
 
 .tree {
     transform: scale(.2);
     position: relative;
     bottom: 650px;
+    display: inline-block;
+    left: -500px;
+}
+
+.tree2 {
+    transform: scale(.2);
+    position: relative;
+    bottom: 2226px;
     display: inline-block;
 }
